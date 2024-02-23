@@ -1,0 +1,42 @@
+
+section {
+    background-image: url(stainedglass.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px; 
+}
+section{
+    background: url(sainte-chapelle.webp) center no-repeat cover;
+    height: 500px;
+}
+
+:root {
+    --lightblue: rgb(74, 201, 255);
+    --lightgreen: lightgreen; 
+    --lightpink: lightpink;
+    --lightyellow: lightyellow;
+    --white: #fff;
+}
+body {
+    background-color:lightpink;
+   
+}
+
+
+// <uniquifier>: Use a uniquifier for the class name
+// <weight>: Use a value from 400 to 800
+
+.eb-garamond <uniquifier> {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.right-float {
+    float: right;
+}
+
+.left-float {
+    float: left; 
+}
