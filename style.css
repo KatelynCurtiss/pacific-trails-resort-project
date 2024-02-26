@@ -4,11 +4,13 @@ section {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     height: 500px; 
 }
 section{
     background: url(sainte-chapelle.webp) center no-repeat cover;
     height: 500px;
+    background-attachment: fixed;
 }
 
 :root {
@@ -39,4 +41,11 @@ body {
 
 .left-float {
     float: left; 
+}
+header{
+    background-color: lightyellow;
+}
+
+footer{
+    background-color: lightyellow;
 }
