@@ -34,7 +34,7 @@ img {
 
 main {
     grid-area: main;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 header{
@@ -63,14 +63,14 @@ footer{
 
 .sidebar-right {
     grid-area: sbr;
-    background-color: deepskyblue;
+    /* background-color: deepskyblue; */
    
 
    
 }
 .sidebar-left {
     grid-area: sbl;
-    background-color: deeppink;
+    /* background-color: deeppink; */
 
 }
 
